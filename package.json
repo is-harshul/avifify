@@ -1,0 +1,48 @@
+{
+  "name": "avifify",
+  "version": "1.0.0",
+  "description": "Production-ready CLI tool to convert images to AVIF. Run standalone, in CI/CD pipelines, or as a git pre-push hook.",
+  "keywords": [
+    "avif",
+    "image",
+    "converter",
+    "compression",
+    "optimize",
+    "git-hook",
+    "pre-push",
+    "cli",
+    "pipeline",
+    "sharp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "avifify": "./bin/avifify.js"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test 'tests/**/*.test.js'",
+    "lint": "echo 'Add your linter here'",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0",
+    "fast-glob": "^3.3.0"
+  },
+  "devDependencies": {
+    "c8": "^8.0.0"
+  }
+}
