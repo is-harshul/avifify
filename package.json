@@ -14,8 +14,16 @@
     "pipeline",
     "sharp"
   ],
-  "author": "",
+  "author": "is-harshul",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/is-harshul/avifify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/is-harshul/avifify/issues"
+  },
+  "homepage": "https://github.com/is-harshul/avifify#readme",
   "type": "module",
   "engines": {
     "node": ">=18.0.0"
