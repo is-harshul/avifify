@@ -1,5 +1,9 @@
 # avifify
 
+[![npm version](https://img.shields.io/npm/v/avifify)](https://www.npmjs.com/package/avifify)
+[![npm downloads](https://img.shields.io/npm/dm/avifify)](https://www.npmjs.com/package/avifify)
+[![license](https://img.shields.io/npm/l/avifify)](LICENSE)
+
 Production-ready CLI tool to convert images to AVIF format. Run on demand, in CI/CD pipelines, or as a git pre-push hook.
 
 AVIF offers **30-60% better compression** than JPEG and **20-40% better** than WebP at equivalent visual quality. This tool makes adoption painless.
