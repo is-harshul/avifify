@@ -1,6 +1,6 @@
 {
   "name": "avifify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Production-ready CLI tool to convert images to AVIF. Run standalone, in CI/CD pipelines, or as a git pre-push hook.",
   "keywords": [
     "avif",
